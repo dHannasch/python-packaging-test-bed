@@ -1,0 +1,8 @@
+# On an isolated network, this will need to change to the internal PyPI mirror.
+--index-url https://pypi.python.org/simple/
+
+# If you leave off the egg name, it says:
+# Could not detect requirement name for 'git+https://github.com/mahmoud/awesome-python-applications.git', please specify one with #egg=your_package_name
+--editable git+https://github.com/pypa/packaging.git#egg=pypa-packaging-package
+sphinx
+--editable .

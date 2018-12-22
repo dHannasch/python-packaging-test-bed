@@ -1,0 +1,7 @@
+build/
+.pytest_cache/
+.eggs/
+my_hyphenated_package.egg-info/
+src/pypa-packaging-package/
+src/importablePackage/__pycache__/
+
