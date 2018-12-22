@@ -76,3 +76,10 @@ source files. Use the Makefile to build the docs, like so:
 where "builder" is one of the supported builders, e.g. html, latex or linkcheck.
 
 
+Add this to .git/config:
+[user]
+	email = David.A.Hannasch@gmail.com
+	name = David A. Hannasch
+or git config user.name "David A. Hannasch" and git config user.email David.A.Hannasch@gmail.com
+
+
